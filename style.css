@@ -1,0 +1,392 @@
+body {
+    font-family: sans-serif
+}
+
+
+.main-header .container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.main-header img {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5));
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.8rem;
+    
+}
+
+.main-header .container-fluid img {
+    height: 90vh;
+
+}
+
+.second-header {
+    background: #eae5d6;
+}
+
+.grid-container h1 {
+    color: #20c0a9;
+}
+
+.second-header h1 {
+    color: rgb(209, 89, 89);
+    text-align: center;
+    font-size: 40px;
+}
+
+.offer-heading h1, h3 {
+    color: white;
+    padding: 0px;
+}
+
+.third-header .container .card h1 {
+    color: rgb(209, 89, 89);
+    font-size: 2rem;
+}
+
+.card-text {
+    line-height: 40px;
+}
+
+
+
+
+.Fourth-header .offer-heading h1 {
+    color: rgb(209, 89, 89);
+    text-align: center;
+    font-size: 40px;
+}
+
+.menu-title {
+    color: rgb(209, 89, 89);
+    font-size: 1.7rem;
+
+}
+
+.third-header {
+    padding: 10px 0px 10px;
+    background-image: linear-gradient(rgba(31, 25, 8, 0.5), rgba(42, 34, 12, 0.5)), url('http://demo.themeparrot.com/yummy/templates/tpl_yummy/images/food-price.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+.card-title {
+    color: rgb(209, 89, 89);
+    margin: auto;
+
+}
+
+.menu-price {
+    color: #20c0a9;
+
+}
+
+.sixth-header .offer-heading h1 {
+    color: rgb(209, 89, 89);
+    text-align: center;
+    font-size: 40px;
+    
+}
+
+
+.sixth-header .offer-heading p {
+    color: black;
+    text-align: center;
+    font-size: 15px;
+}
+
+.sixth-header .img-fluid{
+
+    height: 250px;
+}
+.seventh-header {
+    background: #322514;
+     color: #555555; 
+}
+
+.seventh-header .services-time {
+    color: white;
+}
+
+.newsletter-heading {
+    color: white;
+    font-size: 30px;
+}
+
+
+
+
+
+.adress-section {
+    color: white;
+}
+
+.copyright-section {
+    color: white;
+}
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    padding: 10px;
+
+}
+
+.grid-container>div {
+    text-align: center;
+    padding: 20px 0;
+    margin: 0px 30px;
+}
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    padding: 10px;
+
+}
+
+.grid-container2>div {
+    text-align: center;
+    padding: 20px 0;
+    margin: 0px 70px;
+}
+
+.grid-container2>div h5 {
+    font-size: 30px;
+}
+
+.grid-container2>div .card {
+    background: white;
+    border-radius: 20px;
+
+}
+
+.grid-container2>div img {
+    height: 300px;
+}
+
+
+.grid-container3 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    padding: 10px;
+
+}
+
+.grid-container3>div {
+    text-align: center;
+    padding: 20px 0;
+    margin: 0px 70px;
+}
+
+.grid-container3>div .menu-name {
+    font-size: 20px;
+
+}
+
+.grid-container3>div .menu {
+    padding: 0%;
+    margin: 0%;
+}
+
+.third-header h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.third-header h3 {
+    text-align: center;
+    font-size: 30px;
+    margin: 0%;
+    padding: 0%;
+}
+
+.grid-container4 {
+    display: grid;
+    grid-template-columns:auto auto;
+    gap: 10px;
+    padding: 10px;
+
+}
+
+.grid-container4>div {
+    text-align: center;
+    padding: 20px 0;
+    margin: 0px 90px;
+}
+
+.grid-container4>div .card-title{
+    font-size: 20px;
+
+}
+
+
+.grid-container4>div .btn4{
+   border-radius: 4px;
+   background:none;
+   border-color: red;
+   padding: 10px;
+   color: black;
+   font-weight: 500;
+}
+
+.grid-container5{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    padding: 10px;
+}
+
+
+.grid-container5>div {
+    text-align: center;
+    padding: 20px 0;
+    margin: 0px 70px;
+   
+}
+
+
+.grid-container5>div .newsletter-section{
+    background: #20c0a9 none repeat scroll 0 0;
+    border: 3px solid #0b3731;
+    height: 310px;
+    margin-top: -81px;
+    padding: 0;
+    margin-left: 100px;
+    width:300px;
+    border-radius: 20px;
+    
+}
+
+
+.grid-container5>div .newsletter-section .input-group{
+    padding: 10px;
+}
+
+.grid-container5>div .newsletter-section .form-control{
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 900;
+    color: antiquewhite;
+}
+
+
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50px;
+}
+
+.button:hover {
+    background-color: #8a48c4;
+}
+
+.button1 {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: 700;
+}
+
+.button2 {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: 900;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.button2:hover {
+    background-color: #8a48c4;
+}
+
+
+body {
+    font-family: 'balloobhai', cursive;
+}
+
+
+.main-header .container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.main-header img {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5));
+}
+
+
+
+.main-header .container-fluid img {
+    height: 90vh;
+
+}
+
+
+
+.img-fluid2{
+    height: 350px;
+}
+
+/* extra */
+
+
+.nineth-header .offer-heading h1 {
+    color: rgb(209, 89, 89);
+    text-align: center;
+    font-size: 40px;
+    
+}
+
+
+.nineth-header .offer-heading p {
+    color: black;
+    text-align: center;
+    font-size: 15px;
+}
+
+.nineth-header .img-fluid{
+
+    height: 250px;
+}

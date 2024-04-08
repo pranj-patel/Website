@@ -1,0 +1,148 @@
+<!doctype html>
+
+<html lang="en">
+
+<head> 
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+
+  <link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon">
+  <link rel="icon" href="favicon.ico" type="image/vnd.microsoft.icon">
+  <link rel="apple-touch-icon" href="favicon.ico">
+  <link rel="apple-touch-icon-precomposed" href="favicon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+  <link rel='stylesheet' type='text/css' media='screen' href='sstyle.css'>
+  <script src='main.js'></script>
+  <script src="ajax.js"></script>
+
+  <style>
+    .fa {
+      padding: 30px 2.5px;
+      font-size: 50px;
+      width: 150px;
+      text-align: center;
+      text-decoration: none;
+      margin: 100px 40px;
+      border-radius: 50%;
+      align-items: center;
+    }
+
+    .fa:hover {
+      opacity: 0.5;
+    }
+
+    .fa-instagram {
+      background: #125688;
+      color: white;
+    }
+
+    .fa-facebook {
+      background: #3B5998;
+      color: white;
+    }
+
+    .fa-twitter {
+      background: #55ACEE;
+      color: white;
+    }
+
+    .fa-youtube {
+      background: #bb0000;
+      color: white;
+    }
+
+    .fa-phone {
+      background: black;
+      color: white;
+    }
+
+    .fa-envelope {
+      background: black;
+      color: white;
+    }
+
+    input[type=text],
+    select,
+    textarea {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+      margin-top: 6px;
+      margin-bottom: 16px;
+      resize: vertical
+    }
+
+
+    input[type=submit] {
+      background-color: #04AA6D;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+
+    input[type=submit]:hover {
+      background-color: #45a049;
+    }
+
+    /* Add a background color and some padding around the form */
+    .container25 {
+      border-radius: 5px;
+      background-color: #f2f2f2;
+      padding: 20px;
+      align-items: center;
+    }
+  </style>
+  <title> Contact us</title>
+</head>
+
+<body>
+
+  <section class="nineth-header">
+    <div class="text-center offer-heading">
+      <h1 class="display-6 ">
+        Contact Us
+      </h1>
+      <p>You can contact us through various plateform.</p>
+      <hr class="w-50 mx-auto">
+    </div>
+<form action="connect.php" method="post">
+
+    <div class="container25">
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+      <p>Best thing</p>
+      <input type="radio" name="Best thing" value="m" id="Pizza">
+      <label for="Pizza" class="radio-inline" style="font-size: 12px;">Pizza</label><br>
+      <input type="radio" name="Best thing" value="s" id="drink">
+      <label for="Drink" class="radio-inline" style="font-size: 12px;">Drink</label><br>
+      <input type="radio" name="Best thing" value="b" id="Desert">
+      <label for="Desert" class="radio-inline" style="font-size: 12px;">Desert</label><br>
+      
+      
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+   
+      <input type="submit" value="Submit"  id ="Submit">
+
+    </div>
+  </form>
+   
+
+
+
+
+  </section>
+</body>
+
+</html>

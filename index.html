@@ -1,0 +1,635 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">	
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="mobile-web-app-capable" content="yes">
+
+	<link rel="shortcut icon" href="img/logo.png" type="image/vnd.microsoft.icon">
+	<link rel="icon" href="favicon.ico" type="image/vnd.microsoft.icon">
+	<link rel="apple-touch-icon" href="favicon.ico">
+	<link rel="apple-touch-icon-precomposed" href="favicon.ico">
+		
+	<title>Khushi Pizza</title>
+   
+    <script src="ajax.js">
+    </script>
+    
+    <link rel="stylesheet" href="style.css">
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+
+
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 10px;
+            padding: 13px;
+            overflow: hidden;
+            background-color: #333;
+            color: white;
+
+        }
+
+        li {
+            float: left;
+            margin: 5px 25px;
+            border : 1px solid black; 
+            padding: 6px;
+        }
+        
+        .navbar3 {
+            margin-top: 1%;
+        }
+
+        .centered {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-weight: 900;
+            color: black;
+            font-family: "Lucida Handwriting", "Courier New", monospace;;
+        }
+
+
+        .button {
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            position: absolute;
+            top: 60%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border-radius: 50px;
+        }
+
+        .button:hover {
+            background-color: #8a48c4;
+        }
+
+        .button1 {
+            background-color: #4CAF50;
+            color: white;
+            font-weight: 900;
+        }
+    </style>
+</head>
+
+<!-- start of navbar  -->
+
+<body>
+
+   
+    <div class="container2">
+        <nav class="navbar3">
+            <ul>
+                <li>
+                    <span onclick="inject('content','home.html') ">Home</span>
+                </li>
+                <li>
+                    <span onclick="inject( 'content', 'services.html') ">services</span>
+                </li>
+                <li>
+                    <span onclick="inject( 'content', 'offer.html') ">Offers</span>
+                </li>
+                <li>
+                    <span onclick="inject( 'content', 'menu.html') ">Menu</span>
+                </li>
+                <li>
+                    <span onclick="inject( 'content', 'news.html') ">News</span>
+                </li>
+                <li>
+                    <span onclick="inject( 'content', 'events.html') ">Events</span>
+                </li>
+                <li>
+                    <span onclick="inject( 'content', 'about.html') ">About </span>
+                </li>
+                <li>
+                    <span onclick="inject( 'content', 'ourstory.html') ">Our Story</span>
+                </li>
+                <li>
+                    <span onclick="inject( 'content', 'chefs.html') ">Chefs</span>
+                </li>
+                <li>
+                    <span onclick="inject( 'content', 'vouchers.html') ">vouchers</span>
+                </li>
+                <li>
+                    <span onclick="inject( 'content', 'contanctus.html') ">Contact Us</span>
+                </li>
+                
+            </ul>
+        </nav>
+    </div>
+   
+
+    <div id="content">
+        <section class="header">
+            <div class="container-fluid">
+                <img src="img/ht.jpg" alt="Snow" style="width:100%;  filter: blur(5px);
+             -webkit-filter: blur(5px); " class="img-fluid">
+
+            <div class="centered">Welcome to Vishva Pizzeria </div>
+            <button class="button button1"><i class="fas fa-jedi-order">Order</i></button>
+
+            </div>
+
+            
+
+
+
+    <!-- start of services -->
+
+    <section class="second-header">
+
+        <div class="text-center">
+            <h1 class="display">
+                OUR SERVICES
+            </h1>
+            <hr class="w-50 mx-auto">
+        </div>
+
+
+        <div class="grid-container">
+            <div>
+                <h1>
+                    Discover Menu
+                </h1>
+                <h3 style="color: black;">
+                    Keep browsing our latest menu
+                </h3>
+
+                <p>
+                    Sed imperdiet est et nulla tincidunt, ac aliquam magna tempus. Nullam congue placerat
+                    condimentum. Pellentesque tempor tincidunt nibh id varius. Integer mi libero, interdum et augue
+                    et, bibendum dapibus nisi. In eget est viverra, consequat tellus eu, tincidunt libero. tellus
+                    eu, tincidunt libero. tellus eu, tincidunt libero.
+                </p>
+                <button type="button" class="button2">Discover all</button>
+
+            </div>
+
+            <div>
+                <div class="col-md-6 col-sm-12 text-center ">
+                    <img class="second-header-img img-fluid"
+                        src="img\pik.png" alt="h">
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- end of services -->
+
+
+
+    <!-- start of offer section -->
+
+    <section class="third-header">
+        <div class="text-center offer-heading">
+            <h1 class="display-6">
+                SPECIAL OFFER FOR YOU
+            </h1>
+            <h3>
+                Call for Delivery (+61) 123-45689
+            </h3>
+
+        </div>
+
+
+        <div class="grid-container2">
+
+            <div>
+                <div class="card shadow p-3 mb-5 bg-body rounded mx-auto">
+                    <h1>Combo offer 1</h1>
+                    <h2>
+                        <strong>
+                            $34.00
+                        </strong>
+                    </h2>
+                    <img src="img\ij.png"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Veggies Combo</h5>
+                        <p class="card-text">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+                            </svg> Juice<br>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+                            </svg>Water bottle<br>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+                            </svg> Any one dessert inculded<br>
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div>
+
+                <div class="card shadow p-3 mb-5 bg-body rounded mx-auto">
+                    <h1>Combo offer 2</h1>
+                    <h2>
+                        <strong>
+                            $55.00
+                        </strong>
+                    </h2><img src="img\fd.png"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Delicious Food</h5>
+                        <p class="card-text">
+
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+                            </svg> Juice<br>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+                            </svg>Water bottle<br>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+                            </svg> Any one dessert inculded<br>
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+
+            <div>
+
+                <div class="card shadow p-3 mb-5 bg-body rounded mx-auto">
+                    <h1>Combo offer 3</h1>
+                    <h2>
+                        <strong>
+                            $45.00
+                        </strong>
+                    </h2>
+                    <img src="img/tg.png"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Spicy Combo</h5>
+                        <p class="card-text">
+
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+                            </svg> Juice<br>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+                            </svg>Water bottle<br>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+                            </svg> Any one dessert inculded<br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    </section>
+    <!-- end of offer section -->
+
+
+
+    <!-- start of menu section -->
+
+    <section class="Fourth-header">
+        <div class="text-center offer-heading">
+            <h1 class="display-6 ">
+                Menu
+            </h1>
+            <hr class="w-50 mx-auto">
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="grid-container3">
+                    <div>
+
+                        <div class="menu-title text-center">
+                            APPETIZER
+                        </div>
+                        <div class="menu">
+                            <div class="container">
+                                <h6 class="menu-name">Pizza</h6>
+                            </div>
+                            <div class="container">
+                                <div class="row ">
+                                    <div class=" menu-item">
+                                        Cheese, Jalape, Chilli, Onion
+                                    </div>
+                                    <div class=" menu-price">
+                                        <strong>
+                                            $65.00
+                                        </strong>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="container">
+                                <h6 class="menu-name">Pizza</h6>
+                            </div>
+                            <div class="container">
+                                <div class="row ">
+                                    <div class=" menu-item">
+                                        Cheese, Jalape, Chilli, Onion
+                                    </div>
+                                    <div class="menu-price">
+                                        <strong>
+                                            $65.00
+                                        </strong>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="container">
+                                <h6 class="menu-name">Pizza</h6>
+                            </div>
+                            <div class="container">
+                                <div class="row ">
+                                    <div class=" menu-item">
+                                        Cheese, Jalape, Chilli, Onion
+                                    </div>
+                                    <div class=" menu-price">
+                                        <strong>
+                                            $65.00
+                                        </strong>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="container">
+                                <h6 class="menu-name">Pizza</h6>
+                            </div>
+                            <div class="container">
+                                <div class="row ">
+                                    <div class=" menu-item">
+                                        Cheese, Jalape, Chilli, Onion
+                                    </div>
+                                    <div class=" menu-price">
+                                        <strong>
+                                            $65.00
+                                        </strong>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div>
+
+                        <div class="menu-title text-center">
+                            COURSES
+                        </div>
+
+                        <div class="menu mt-5">
+                            <div class="container">
+                                <h6 class="menu-name">Pizza </h6>
+                            </div>
+                            <div class="container">
+                                <div class="row ">
+                                    <div class="menu-item">
+                                        Cheese, Jalape, Chilli, Onion
+                                    </div>
+                                    <div class="menu-price">
+                                        <strong>
+                                            $65.00
+                                        </strong>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="container">
+                                <h6 class="menu-name">Pizza</h6>
+                            </div>
+                            <div class="container">
+                                <div class="row ">
+                                    <div class="menu-item">
+                                        Cheese, Jalape, Chilli, Onion
+                                    </div>
+                                    <div class="menu-price">
+                                        <strong>
+                                            $65.00
+                                        </strong>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="container">
+                                <h6 class="menu-name">Pizza</h6>
+                            </div>
+                            <div class="container">
+                                <div class="row ">
+                                    <div class="menu-item">
+                                        Cheese, Jalape, Chilli, Onion
+                                    </div>
+                                    <div class="menu-price">
+                                        <strong>
+                                            $65.00
+                                        </strong>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="container">
+                                <h6 class="menu-name">Pizza</h6>
+                            </div>
+                            <div class="container">
+                                <div class="row ">
+                                    <div class="menu-item">
+                                        Cheese, Jalape, Chilli, Onion
+                                    </div>
+                                    <div class="menu-price">
+                                        <strong>
+                                            $65.00
+                                        </strong>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div>
+
+                        <div class="menu-title text-center">
+                            DESSERTS
+                        </div>
+
+                        <div class="menu mt-5">
+                            <div class="container">
+                                <h6 class="menu-name">Pizza</h6>
+                            </div>
+                            <div class="container">
+                                <div class="row ">
+                                    <div class="menu-item">
+                                        Cheese, Jalape, Chilli, Onion
+                                    </div>
+                                    <div class="menu-price">
+                                        <strong>
+                                            $65.00
+                                        </strong>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="container">
+                                <h6 class="menu-name">Pizza</h6>
+                            </div>
+                            <div class="container">
+                                <div class="row ">
+                                    <div class="menu-item">
+                                        Cheese, Jalape, Chilli, Onion
+                                    </div>
+                                    <div class="menu-price">
+                                        <strong>
+                                            $65.00
+                                        </strong>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="container">
+                                <h6 class="menu-name">Pizza</h6>
+                            </div>
+                            <div class="container">
+                                <div class="row ">
+                                    <div class="menu-item">
+                                        Cheese, Jalape, Chilli, Onion
+                                    </div>
+                                    <div class="menu-price">
+                                        <strong>
+                                            $65.00
+                                        </strong>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="container">
+                                <h6 class="menu-name">Pizza</h6>
+                            </div>
+                            <div class="container">
+                                <div class="row ">
+                                    <div class="menu-item">
+                                        Cheese, Jalape, Chilli, Onion
+                                    </div>
+                                    <div class="menu-price">
+                                        <strong>
+                                            $65.00
+                                        </strong>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- end of menu section -->
+
+
+
+    <!-- start of news section  -->
+
+    <section class="sixth-header">
+        <div class="text-center offer-heading">
+            <h1 class="display-6 ">
+                News Update
+            </h1>
+            <p>
+                Here you can read latest news about food avability
+            </p>
+            <hr class="w-50 mx-auto">
+        </div>
+
+        <div class="grid-container4">
+            <div class="card" style="max-width: 540px;">
+                <div class="row">
+                    <img src="img/og.png"
+                        class="img-fluid" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Nutrician food</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a
+                            natural
+                            lead-in to additional content. This content is a little bit longer.</p>
+                        <button type="button" class="btn4">Read more
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="card" style="max-width: 540px;">
+                <div class="row">
+                    <img src="img/gf.jpg"
+                        class="img-fluid rounded-start" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Latest food</h5>
+                        <p class="card-text">Enjoy a new variety of food with different test . Here we provide a
+                            100 of variety of foods with good representation of dish.
+                        </p>
+                        <button type="button" class="btn4">Read more
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- end of news section -->
+
+    </div>
+</body>
